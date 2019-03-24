@@ -1,0 +1,339 @@
+*{
+    margin: 0; padding: 0;
+}
+
+@media screen and (max-width:1200px){
+    .container{
+        width: 960px; margin: 0 auto;
+    }
+    .top-header{
+        width: 100%;
+    }
+    .top-menu{
+        width: 100%;
+    }
+    .mid-header{
+        width: 100%;
+    }
+    
+    .main-menu{
+        width: 100%;
+    }
+    
+    .future{
+        width: 100%;
+    }
+    
+    .product-area{
+        width: 100%;
+    }
+    
+    .offer-area{
+        width: 100%;
+    }
+    
+    .subscribe-area{
+        width: 100%;
+    }
+    
+    .laptop-area{
+        width: 100%;
+    }
+    
+    .desktop-area{
+        width: 100%;
+    }
+    
+    .brand-area{
+        width: 100%;
+    }
+    
+    .bottom-menu-area{
+        width: 100%;
+    }
+    
+    .card-social-area{
+        width: 100%;
+    }
+    
+    .footer{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width:640px){
+    .container{
+        width: 620px; margin: 0 auto;
+    }
+    .top-header{
+        width: 640px;
+    }
+    
+    .top-menu-leftside{
+        float: left; width: 620px;
+    }
+    .top-menu-rightside{
+        float: left; width: 620px; 
+    }
+    .resform{
+        margin: 0 auto; width: auto; display: inline-block;
+    }
+    .mid-header{
+        width: 640px; float: left;
+    }
+    
+    .logo{
+        width: 620px; float: left;
+    }
+    
+    .mid-rightside{
+        width: 620px; float: left;
+    }
+    
+    .main-menu{
+        width: 640px;
+    }
+    .menu{
+        width: 620px;
+    }
+    
+    .slider{
+        width: 640px; float: left;
+    }
+    .slider img{
+        width: 640px; 
+    }
+    
+    .future{
+        width: 640px;
+    }
+    
+    .shopping{
+        width: 620px; float: left; 
+    }
+    .store{
+        width: 620px; float: left;
+    }
+    .time{
+        width: 620px; float: left;
+    }
+    .delivery{
+        width: 620px; float: left;
+    }
+    
+    .product-area{
+        width: 640px; float: left;
+    }
+    
+    .product-menu{
+        width: 620px; margin: 0 auto;
+    }
+    
+    .product-menu ul{
+    list-style: none; margin-left: 0px; 
+    }
+    
+    .product{
+        width: 206px; float: left; font-size: 10px;
+    }
+    .product-img{
+        width: 200px;
+    }
+    .product-img img{
+        width: 200px
+    }
+    
+    .overly{
+        width: 206px;
+    }
+    
+    .shopping-btn{
+    font-size: 10px; padding: 5px; color: #719B1D; background: white; border: none; box-shadow: 0 3px 0 0 #CACACA; border-radius: 5px; margin-right: 5px;
+}
+
+.edit-btn{
+    font-size: 10px; padding: 5px 5px; color: #719B1D; background: white; border: none; box-shadow: 0 3px 0 0 #CACACA; border-radius: 5px; margin-right: 5px;
+}
+.exchange-btn{
+    font-size: 10px; padding: 5px 5px; color: #719B1D; background: white; border: none; box-shadow: 0 3px 0 0 #CACACA; border-radius: 5px;
+}
+    .offer-area{
+        width: 640px;
+    }
+    
+    .subscribe-area{
+        width: 640px;
+    }
+    
+    .laptop-area{
+        width: 640px;
+    }
+    
+    .desktop-area{
+        width: 640px;
+    }
+    
+    .brand-area{
+        width: 640px;
+    }
+    
+    .bottom-menu-area{
+        width: 640px;
+    }
+    
+    .card-social-area{
+        width: 640px;
+    }
+    
+    .footer{
+        width: 640px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 960px) {
+
+    .main-menu{
+    background: #0198D1;
+    }
+    .main-menu .nav-link{
+        color: white; border-radius: 0; padding: 5px 0px; font-size: 12px; border-right: 1px solid red;
+    }
+    .main-menu .nav-link:hover{
+        background: white; color: #0198D1;
+    }
+    .main-menu .dropdown-menu{
+        width: 600px; background: white; color: black; top: 30px; border: 0; box-shadow: 0px 5px 10px 0px gray;
+    }
+    .main-menu .dropdown-menu .item-heading{
+        color: black; font-weight: bold; display: block; padding: .25rem 1.5rem; text-decoration: none; margin: 5px 0;
+
+    }
+    .main-menu .dropdown-menu .dropdown-item{
+        color: gray;
+    }
+    .main-menu .dropdown-menu .dropdown-item:hover{
+        color: #0198D1; background: white;
+    }
+    .main-menu .electronics-menu{
+        left: -200px;
+    }
+    .main-menu .entertain-menu{
+        left: -300px; 
+    }
+    .main-menu .daily-menu{
+        width: 300px; 
+    }
+    .main-menu .fashion-menu{
+        width: 1100px; left: -800px; 
+    }
+    .main-menu .nav .dropdown:hover>.dropdown-menu{
+        display: block; 
+    }
+    .main-menu .nav .dropdown:hover>.nav-link{
+        background: white; color: #0198D1;
+    }
+
+
+}
+@media only screen and (max-width: 768px) {
+    
+    .header-area{
+        width: 100%; height: auto; padding-top: 5px; font-size: 12px;
+    }
+    .header-area .col-md-2{
+        width: 20%; 
+    }
+    .header-area .col-md-4{
+       width: 30%; 
+    }
+    .header-area .col-md-6{
+       width: 50%; 
+    }
+    
+    
+    
+    .main-menu {
+        display: none;
+    }
+} 
+
+
+/* /// Extra small devices (phones, 600px and down) 
+@media only screen and (max-width: 600px) {
+    
+}
+
+// Small devices (portrait tablets and large phones, 600px and up) 
+@media only screen and (min-width: 600px) {
+    .example {background: green;}
+}
+
+// Medium devices (landscape tablets, 768px and up) 
+@media only screen and (min-width: 768px) {
+    .example {background: blue;}
+} 
+
+// Large devices (laptops/desktops, 992px and up) 
+@media only screen and (min-width: 992px) {
+    .example {background: orange;}
+} 
+
+// Extra large devices (large laptops and desktops, 1200px and up) 
+@media only screen and (min-width: 1200px) {
+    .example {background: pink;}
+}
+ */
+
+/*@media only screen and (min-width:480px) and (max-width:960px){
+    .main-menu .container{
+        padding: 0; margin: 0 auto; width: 290%;
+    }
+    .main-menu .nav-link {color: white;border-radius: 0;padding: 5px 2px;font-size: 12px;border-right: 1px solid #f8f9fa; font-weight: 500;
+        }
+    .main-menu .fashion-menu { width: 560%; left: -460%;
+        }
+    .main-menu .daily-menu { width: 350%; left: -100%;
+        }
+    .main-menu .entertain-menu { left: -345%; width: 640%;
+        }
+    .main-menu .electronics-menu { left: -122%; width: 410%;
+        }
+    .main-menu .computers-menu{
+        left: -150%; width: 820%;
+    }
+    .main-menu .mega-menu {
+    width: 552%;
+    }
+    
+}
+
+@media only screen and (min-width:480px) and (max-width:767px;){
+    
+}
+
+@media only screen and (min-width:320px) and (max-width:360px;){
+    
+}
+
+@media only screen and (min-width:240px) and (max-width:319px;){
+    
+}*/
+
+/*@media only screen and (min-width:768px) and (max-width:960px;){
+    
+}*/
+
+
+
+
